@@ -1,0 +1,23 @@
+enum ProblemLevel {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum ProblemStatus {
+  DRAFT
+  LIVE
+  DISABLED
+}
+
+type Problems @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  problem_name: String!
+  problem_detail: String!
+  status: ProblemStatus!
+  level: ProblemLevel
+  topics: String
+  solutions: AWSJSON
+  createdAt: AWSDateTime!
+  modifiedAt: AWSDateTime!
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149443541908",
+    "project_id": "fir-one-8181e",
+    "storage_bucket": "fir-one-8181e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149443541908:android:e8d4109e7065af833aed81",
+        "android_client_info": {
+          "package_name": "com.devhustlers.eduone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149443541908-og9ragt55ek3hf6nhom64i0cgronvtf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDheRjDO9mOR6mGB07ACPM56twUqkyc16g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149443541908-og9ragt55ek3hf6nhom64i0cgronvtf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
